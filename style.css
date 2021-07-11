@@ -164,10 +164,8 @@ h2{
 
   @media only screen and (min-width: 1050px){
     .info{
-      position: absolute;
-      top: 10em;
-      left: 25em;
-      z-index: 10;
+      display: flex;
+      justify-content: center;
     }
     .info2{
       display: none;
